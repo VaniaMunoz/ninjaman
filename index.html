@@ -113,6 +113,11 @@
         if(e.keyCode == 40){
             if(world[ninjaman.y + 1] [ninjaman.x] != 1){
             ninjaman.y++;
+            }
+        }
+        if(e.keyCode == 38){
+            if(world[ninjaman.y - 1] [ninjaman.x] != 1){
+            ninjaman.y--;
         }
     }
     // add going down functionality
